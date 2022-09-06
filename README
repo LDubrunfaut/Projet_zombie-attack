@@ -1,0 +1,42 @@
+  ***********************
+  *   ZOMBIE ATTACK !   *
+  ***********************
+
+
+  * DESCRIPTION : *
+
+Le programme est divisé en 2 fichiers :
+ > main.py : l'executable, contient le coeur du programme
+ > fonc_zombie.py : contient les fonctions appelée dans main.py
+
+Le programme nécessite également le fichier france.svg, afin de connaitre les limites de la France.
+
+Ces 3 fichiers ont besoin de se trouver dans le même répertoire.
+
+
+  * UTILISATION : *
+
+Ce programme simule la propagation de l'épidémie, jour après jour.
+C'est à l'utilisateur de préciser le nombre de jour qu'il souhaite visualiser (en 60 jours l'infection a contaminé la quasi totalité de la France).
+De ce fait, au cas où main.py n'est pas exécutable, écrire :
+  chmod +x main.py
+Puis l'exécuter en précisant le nombre de jours, par exemple :
+ > ./main.py 30
+
+Une carte de France apparait, affichant le jour n°1.
+Afin de passer au jour suivant, cliquez sur la carte.
+Une fois arriver au dernier jour, cliquez à nouveau sur la carte : ceci provoquera sa fermeture.
+
+Le programme vous propose alors de choisir une ville dans laquelle une résistance pourrait se mettre en place : des personnes seraient alors formées pour savoir tuer les zombies, mais resteraient néanmoins vulnérables à la contamination par le virus.
+Si vous avez été attentif à la carte précédente, vous pouvez tenter une stratégie en désignant la ville la plus intéressante pour sauver le maximum de Français. Car l'épidémie débutera au même endroit que précédemment.
+
+
+  * CONTEXTE : *
+
+Le virus T, virus crée par le scientifique Derek Simmons sous la directive d'Umbrella Corporation, était initialement conçu à des fins pharmaceutique. Cependant une mutation du Virus en fit une arme biologique inattendue, transformant les pauvres souris cobayes...en souris zombies !
+
+Derek Simmons travailla jour et nuit, sans relâche, à la conception d'un antidote du virus. Cependant, suite à un manque de sommeil et une consommation excessive de café, il finit par devenir fou, fuyant le laboratoire d'Umbrella Corporation avec le virus…
+
+Affolée, l'armée nous demanda de simuler la propagation de l'épidémie au cas où le chercheur en vient à disséminer le virus. Nous avons respecté le cahier des charges stipulant que cette simulation doit être compréhensible à la fois par les gens sachant lire le binaire, que par les autres...
+
+Il est envisagé de faire appel à un certain agent Léon S. Kennedy tout droit débarqué des États-Unis qui se trouve actuellement en France pour ses vacances. Ayant déjà vécu une situation similaire à Racoon City, il serait apte à former une résistance en entraînant hommes et femmes à se défendre contre cette menace aussi inattendue que mortelle.
